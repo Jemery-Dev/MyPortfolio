@@ -1,5 +1,6 @@
 <script>
       import ColorfulTitle from '../../components/TitleColor.svelte';
+      import SousTitre from '../../components/Undertitle.svelte'
       import {Carousel, Avatar} from  'flowbite-svelte'
       import images from '../../data/projects.json';
       let image;
@@ -16,7 +17,8 @@
 <section id="presentation" class="py-20 text-white">
     <div class="container mx-auto text-center">
       <div class="context-square">
-        <ColorfulTitle id="douze" text="Jérémy Girard" undertext="Etudiant - 2ème année BUT INFO"/>
+        <ColorfulTitle text="Jérémy Girard"/>
+        <SousTitre undertext="18 ans . Français . Développeur Web . Etudiant" />
         <div class="text-lg mb-6 space-x-">
         </div>
       </div>
