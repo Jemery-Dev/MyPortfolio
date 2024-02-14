@@ -1,0 +1,110 @@
+[
+  {
+    "alt": "JavaScript",
+    "category": ["Front-End","Web","Programmation"],
+    "src": "/imageProjet/skills/icons8-javascript-96.png",
+    "href" : "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+  },
+  {
+    "alt": "C",
+    "category": ["Back-End","Programmation"],
+    "src": "/imageProjet/skills/icons8-c-96.png",
+    "href" : "https://fr.wikipedia.org/wiki/C_(langage) "
+  },
+  {
+    "alt": "CSS",
+    "category": ["Front-End","Web"],
+    "src": "/imageProjet/skills/icons8-css3-96.png",
+    "href" : "https://developer.mozilla.org/fr/docs/Web/CSS"
+  },
+  {
+    "alt": "HTML",
+    "category": ["Front-End","Web"],
+    "src": "/imageProjet/skills/icons8-html-5-96.png",
+    "href" : "https://developer.mozilla.org/fr/docs/Web/HTML"
+  },
+  {
+    "alt": "Java",
+    "category": ["Back-End","Programmation"],
+    "src": "/imageProjet/skills/icons8-java-96.png",
+    "href" : "https://www.java.com/fr/"
+  },
+  {
+    "alt": "PHP",
+    "category": ["Back-End","Base de données","Web"],
+    "src": "/imageProjet/skills/icons8-php-96.png",
+    "href" : "https://www.php.net/manual/fr/intro-whatis.php"
+  },
+  {
+    "alt": "Python",
+    "category": ["Back-End","Programmation"],
+    "src": "/imageProjet/skills/icons8-python-96.png",
+    "href" : "https://www.python.org"
+  },
+  {
+    "alt": "Svelte",
+    "category": ["Front-End","Web","Framework"],
+    "src": "/imageProjet/skills/icons8-svelte-96.png",
+    "href" : "https://svelte.dev"
+  },
+  {
+    "alt": "Tailwind CSS",
+    "category": ["Front-End","Web"],
+    "src": "/imageProjet/skills/icons8-tailwindcss-96.png",
+    "href" : "https://tailwindcss.com"
+  },
+  {
+    "alt": "MySQL",
+    "category": ["Back-End","Base de données"],
+    "src": "/imageProjet/skills/icons8-sql-96.png",
+    "href" : "https://www.mysql.com/fr/"
+  },
+  {
+    "alt" : "Django",
+    "category" : ["Back-End","Web","Framework","Base de données"],
+    "src" : "/imageProjet/skills/icons8-django-96.png",
+    "href" : "https://www.djangoproject.com"
+  },
+  {
+    "alt" : "Docker",
+    "category": ["Back-End", "DevOps", "Infrastructure"],
+    "src": "/imageProjet/skills/icons8-docker-96.png",
+    "href": "https://www.docker.com/"
+  },
+  {
+    "alt" : "Github",
+    "category" : ["Outil"],
+    "src" : "/imageProjet/skills/icons8-github-96.png",
+    "href" : "https://www.github.com/"
+  },
+  {
+    "alt" : "Symfony",
+    "category" : ["Back-End","Web","Framework"],
+    "src" : "/imageProjet/skills/icons8-symfony-96.png",
+    "href" : "https://symfony.com"
+  },
+  {
+    "alt" : "Vue.js",
+    "category" : ["Front-End","Web","Framework"],
+    "src" : "/imageProjet/skills/icons8-vue-js-96.png",
+    "href" : "https://vuejs.org"
+  },
+  {
+    "alt" : "React",
+    "category" : ["Framework","Front-End","Framework"],
+    "src" : "/imageProjet/skills/icons8-react-96.png",
+    "href" : "https://fr.legacy.reactjs.org"
+  },
+  {
+    "alt" : "SpringBoot",
+    "category" : ["Framework","Back-End","Web"],
+    "src" : "/imageProjet/skills/icons8-spring-boot-96.png",
+    "href" : "https://spring.io/projects/spring-boot"
+  },
+  {
+    "alt" : "C++",
+    "category" : ["Back-End","Programmation"],
+    "src" : "/imageProjet/skills/icons8-c++-96.png",
+    "href" : "https://learn.microsoft.com/fr-fr/cpp/cpp/?view=msvc-170"
+  }
+]
