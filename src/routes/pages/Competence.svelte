@@ -44,7 +44,7 @@
             <Card class="max-w-xs mx-auto w-full md:w-1/2 lg:w-1/4 h-64">
               <img src={skill.src} alt={skill.alt} class="w-24 h-24 mx-auto mb-3" />
               <h5 class="mb-2 text-lg font-bold text-gray-900 dark:text-white">{skill.alt}</h5>
-              <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">{montrerCategory(skill.category)}</p>
+              <p class="mb-2 text-sm font-normal text-gray-700 dark:text-gray-400">{montrerCategory(skill.category)}</p>
               <Button class="text-sm" href={skill.href}> 
                 En savoir plus <ArrowRightOutline class="w-3 h-3 ms-1 text-white" />
               </Button>
