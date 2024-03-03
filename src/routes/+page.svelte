@@ -1,6 +1,6 @@
 <script>
   import './styles.css';
-  import  Presentation  from './pages/Presentation.svelte'
+  import Presentation from './pages/Presentation.svelte'
   import Competence from './pages/Competence.svelte'
   import Projet from './pages/Projet.svelte'
  
