@@ -106,16 +106,5 @@
     "category" : ["Back-End","Programmation"],
     "src" : "/imageProjet/skills/icons8-c++-96.png",
     "href" : "https://learn.microsoft.com/fr-fr/cpp/cpp/?view=msvc-170"
-  },
-  {
-    "alt" : "MongoDB",
-    "category" : ["Base de données","Back-End"],
-    "src" : "/imageProjet/skills/icons8-mongodb-96.png",
-    "href" : "gjeremy.dev"
-  },
-  {
-    "alt" : "PostgreSQL",
-    "category" : ["Base de données","Back-End"],
-    "src" :"/imageProjet/skills/icons8-postgresql-96.png"
   }
 ]
