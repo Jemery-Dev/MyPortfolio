@@ -1,8 +1,6 @@
 <script>
     import { Card, Pagination } from 'flowbite-svelte';
     import { chunkArray } from '../utils/utils'; // Importer la fonction chunkArray depuis un fichier utilitaire
-    import { faGithub } from '@fortawesome/free-brands-svg-icons';
-    import Fa from 'svelte-fa';
     import Icon from '../components/Icon.svelte';
 
     export let projects = []; // Propriété pour passer la liste de projets au composant
