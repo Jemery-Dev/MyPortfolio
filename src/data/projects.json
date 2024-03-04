@@ -3,44 +3,57 @@
         "category": "Universitaire",
         "src": "/imageProjet/saeWeb.png",
         "alt": "Site de vente de Kebab",
-        "description": "Ce site de vente a été fait pour un projet Web en HTML et CSS uniquement où on devait réaliser un squelette de site de vente, entre autre les formulaires ne fonctionnent pas.",
+        "description": "Site vitrine pour vente de kebab",
         "competences": ["HTML","CSS"]
     },
     {
       "category": "Universitaire",
       "src": "/imageProjet/projetAnnuaireC.png",
       "alt": "Annuaire en C",
-      "description": "Ce projet est le premier projet universitaire que j'ai pu faire, il consistait à développer un annuaire en C à partir d'un fichier csv que l'on peut interragir depuis un terminal. Il y avait de plusieurs fonctionnalités à réaliser en binôme comme ajouter un client ou supprimer un client pour les tâches simples, ou encore trier les clients en fonction de deux champs ou trier par nom alphabétique. Je me suis occupé majoritairement des fonctionnalités tandis que mon binome s'est occupé de la structuration.",
+      "description": "Structuration de données pour annuaire en TUI",
       "competences": ["C","Réaliser un développement d’application"]
     },
     {
         "category": "Universitaire",
         "src": "/imageProjet/saeJava.png",
         "alt": "Aide à la décision Java",
-        "description": "Cette application Java avait comme but d'aider les utilisateurs à trouver le meilleur chemin dans un repère de graphes avec des variables comme la durée, la longueur ou autres. Je me suis occupé de la majorité des fonctionnalités ainsi que de l'interface tandis que mes collègues se sont occupés de la lecture du fichier.csv et ",
+        "description": "Application Java d'aide à la prise de décisions",
         "competences": ["Java","Réaliser un développement d’application"]
     },
     {
         "category": "Universitaire",
         "src": "/imageProjet/projetPHP.png",
         "alt": "Blog Web en PHP",
-        "description": "Ce site web fait en trînome a été réalisé pour s'entraîner sur des bases de PHP, cela m'a permit d'apprendre à gérer des formulaires et des données sur un site web ce qui était un très bonne exercice pour des futurs projets",
+        "description": "Blog simple fait en PHP",
         "competences": ["HTML","CSS","PHP","SQL"]
     },
     {
         "category": "Universitaire",
         "src": "/imageProjet/saeCoinche.png",
         "alt": "Jeu de Coinche en ligne",
-        "description": "Ce site en ligne pour un jeu de Coinche a été réalisé durant mon année de BUT 2, j'ai principalement fait le front du jeu en m'occupant des menus, de l'affichage des éléments et du jeu de Coinche en lui-même.",
+        "description": "Projet de Coinche en ligne",
         "competences": ["HTML","CSS","TAILWINDCSS","PYTHON","DJANGOPYTHON","SVELTE","JS"]
     },
     {
         "category": "Personnel",
         "src": "/imageProjet/portfolio.png",
         "alt": "Portfolio",
-        "description": "Site Portfolio que j'ai crée pour tester mes compétences à faire de moi-même un propre site pour me présenter",
+        "description":"Site web personnel avec moi et mes projets",
         "comptences": ["HTML","CSS","TAILWINDCSS","SVELTE","JS"]
+    },
+    {
+        "category": "Personnel",
+        "src": "/imageProjet/pokemonapi.png",
+        "alt": "API Pokemon",
+        "description":"Projet d'une simple API en Rust",
+        "comptences": ["RUST"]
+    },
+    {
+        "category": "Personnel",
+        "src": "/imageProjet/portfolio.png",
+        "alt": "DeanTUI",
+        "description":"Interface TUI en Rust d'éditeur de tablatures",
+        "comptences": ["RUST"]
     }
-
   ]
   

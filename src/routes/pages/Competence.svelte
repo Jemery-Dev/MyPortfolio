@@ -32,22 +32,23 @@
   </div>
   
   
-  <div id="gallery" class="flex flex-wrap justify-center space-y-4">
+  <div id="gallery" class="grid  gap-4 md:grid-cols-3 lg:grid-cols-5">
     <Card class="hidden"/>
     {#each skills as skill (skill.alt)}
-    {#if skill.alt && (skill.alt.toLowerCase().includes(searchTexte.toLowerCase()) || searchTexte === "")}
-      {#if skill.category && (skill.category.includes(choix) || choix === "all")}
-          <Card class="max-w-xs mx-auto w-full md:w-1/2 lg:w-1/4 h-64">
+      {#if skill.alt && (skill.alt.toLowerCase().includes(searchTexte.toLowerCase()) || searchTexte === "")}
+        {#if skill.category && (skill.category.includes(choix) || choix === "all")}
+          <Card class="max-w-xs mx-auto md:w-full lg:w-full h-64">
             <img src={skill.src} alt={skill.alt} class="w-24 h-24 mx-auto mb-3" />
             <h5 class="mb-2 text-lg font-bold text-gray-900 dark:text-white">{skill.alt}</h5>
             <p class="mb-2 text-sm font-normal text-gray-700 dark:text-gray-400">{montrerCategory(skill.category)}</p>
-              <Button class="text-sm" id="{skill.alt}-id" href={skill.href}> En savoir plus <ArrowRightOutline class="w-3 h-3 ms-1 text-white" />
-              </Button>
-              <Popover class="w-64 text-base font-light" title="{skill.alt}" triggeredBy="#{skill.alt}-id">{skill.text}</Popover>
+            <Button class="text-sm" id="{skill.alt}-id" href={skill.href} target="_blank"> 
+              En savoir plus <ArrowRightOutline class="w-3 h-3 ms-1 text-white" />
+            </Button>
+            <Popover class="w-64 text-base font-light" title="{skill.alt}" triggeredBy="#{skill.alt}-id">{skill.text}</Popover>
           </Card>
         {/if}
       {/if}
     {/each}
-    </div>
+  </div>
 </section>
 
