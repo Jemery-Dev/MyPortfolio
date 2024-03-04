@@ -1,7 +1,9 @@
 <script>
     import { Card, Pagination } from 'flowbite-svelte';
     import { chunkArray } from '../utils/utils'; // Importer la fonction chunkArray depuis un fichier utilitaire
-	import Projet from '../routes/pages/Projet.svelte';
+    import { faGithub } from '@fortawesome/free-brands-svg-icons';
+    import Fa from 'svelte-fa';
+    import Icon from '../components/Icon.svelte';
 
     export let projects = []; // Propriété pour passer la liste de projets au composant
     export let titreListe = "";
@@ -58,9 +60,12 @@
         <div class="space-y-8 gap-x-4 md:grid-cols-1 lg:grid-cols-2 grid">
             <Card class="hidden"></Card>
             {#each miniLists[currentPage] as project, index (project.alt)}
-                <Card class="max-w-96 mb-3 flex items-center mx-4 !border-gray-400 !bg-slate-800 hover:!bg-slate-900">
+                <Card class="max-w-96 h-48 mb-3 flex items-center mx-4 !border-gray-400 !bg-slate-800 hover:!bg-slate-900">
                     <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{project.alt}</h5>
-                    <p class="mb-3 font-normal text-2xl !text-gray-300 dark:text-gray-400 leading-normal">{project.description}</p>
+                    <p class="mb-3 font-normal text-2xl !text-gray-300 dark:text-gray-400">{project.description}</p>
+                    <div class="flex items-center w-full h-full">
+                        <Icon gitlink={project.gitlink} />
+                    </div>
                 </Card>
             {/each}
         </div>

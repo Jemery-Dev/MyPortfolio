@@ -4,7 +4,8 @@
         "src": "/imageProjet/saeWeb.png",
         "alt": "Site de vente de Kebab",
         "description": "Site vitrine pour vente de kebab",
-        "competences": ["HTML","CSS"]
+        "competences": ["HTML","CSS"],
+        "gitlink": "https://github.com/Jemery-Dev/VitrineKebab"
     },
     {
       "category": "Universitaire",
@@ -24,14 +25,14 @@
         "category": "Universitaire",
         "src": "/imageProjet/projetPHP.png",
         "alt": "Blog Web en PHP",
-        "description": "Blog simple fait en PHP",
+        "description": "Blog simple fait en PHP connecté à une BD",
         "competences": ["HTML","CSS","PHP","SQL"]
     },
     {
         "category": "Universitaire",
         "src": "/imageProjet/saeCoinche.png",
         "alt": "Jeu de Coinche en ligne",
-        "description": "Projet de Coinche en ligne",
+        "description": "Projet web de site de Coinche en ligne",
         "competences": ["HTML","CSS","TAILWINDCSS","PYTHON","DJANGOPYTHON","SVELTE","JS"]
     },
     {
