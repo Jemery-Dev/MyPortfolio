@@ -129,13 +129,14 @@
     "alt" : "MongoDB",
     "category" : ["Base de données","Back-End"],
     "src" : "/imageProjet/skills/icons8-mongodb-96.png",
-    "href" : "gjeremy.dev",
+    "href" : "https://spring.io/projects/spring-boot",
     "text" : "MongoDB a été ma première introduction aux modèles de données non relationnels, et je dois avouer que j'ai beaucoup plus apprécié cette approche que le SQL. Traiter directement avec des fichiers JSON est bien plus intuitif que les modèles de bases de données avec des clés primaires et étrangères. Une expérience enrichissante que je compte bien utiliser dans de nombreux projets à venir."
   },
   {
     "alt" : "PostgreSQL",
     "category" : ["Base de données","Back-End"],
     "src" :"/imageProjet/skills/icons8-postgresql-96.png",
+    "href" : "https://spring.io/projects/spring-boot",
     "text" : "J'ai eu l'occasion d'essayer le logiciel PostgreSQL car je voulais comparer ses fonctionnalités à celles d'autres logiciels comme Oracle ou MySQL. Je dois avouer que j'ai une nette préférence pour PostgreSQL. Son interface est très pratique et la plupart de mes bases de données sont maintenant hébergées dessus."
   }
 ]
