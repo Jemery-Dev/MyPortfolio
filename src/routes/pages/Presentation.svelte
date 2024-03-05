@@ -1,4 +1,5 @@
 <script>
+  // @ts-nocheck
   import ColorfulTitle from '../../components/TitleColor.svelte';
   import SousTitre from '../../components/Undertitle.svelte'
   import {Carousel, Avatar} from  'flowbite-svelte'
