@@ -3,6 +3,7 @@
   import  Presentation  from './pages/Presentation.svelte'
   import Competence from './pages/Competence.svelte'
   import Projet from './pages/Projet.svelte'
+  import Footer from './pages/Footer.svelte';
  
   /*function jouerMusique(){
       var audio = new Audio('enmodefeuj.mp3');
@@ -14,5 +15,6 @@
   <Presentation />
   <Competence />
   <Projet />
+  <Footer />
 </html>
 

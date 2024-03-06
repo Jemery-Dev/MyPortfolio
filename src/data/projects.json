@@ -4,6 +4,7 @@
         "src": "/imageProjet/saeWeb.png",
         "alt": "Site de vente de Kebab",
         "description": "Site vitrine pour vente de kebab",
+        "longdescription":"Pour mon premier semestre de mon BUT, on a dû faire par groupe de 2 un projet de site vitrine de vente de Kebab en ligne suite à des formulaires, on devait respecter une contrainte de faire uniquement en HTML et CSS ce qui nous a apprit à savoir faire avec le plus simple sans utiliser des outils trop complexes au début comme JavaScript ou des frameworks. C'est un très bonne exercice que j'apprécie beaucoup, et il faudrait peut-être que je le rénove pour le rendre fonctionnel même",
         "competences": ["HTML","CSS"],
         "gitlink": "https://github.com/Jemery-Dev/VitrineKebab"
     },
@@ -12,13 +13,16 @@
       "src": "/imageProjet/projetAnnuaireC.png",
       "alt": "Annuaire en C",
       "description": "Structuration de données pour annuaire en TUI",
-      "competences": ["C","Réaliser un développement d’application"]
+      "longdescription": "Au premier semestre de mon BUT, on a dû faire un projet d'annuaire en C à partir d'un fichier csv ou txt qui devait afficher sous terminal tout les clients, et pouvoir faîre des requêtes comme ajouter supprimer ou modifier une personne. De plus il y avait des fonctionnalités de tri ou autre qui était complexe pour nos débuts de développeurs. On s'en rendait pas compte encore mais on venait de réaliser une sorte d'API sous terminal",
+      "competences": ["C","Réaliser un développement d’application"],
+      "gitlink": "https://github.com/Jemery-Dev/Annuaire-en-C"
     },
     {
         "category": "Universitaire",
         "src": "/imageProjet/saeJava.png",
         "alt": "Aide à la décision Java",
         "description": "Application Java d'aide à la prise de décisions",
+        "longdescription":"Au deuxième semestre on a pu réaliser un gros projet d'application en Java Swing, le projet devait se faire en trînome mais malheureusement les personnes dans mon groupe n'avait pas grand intêret dans le projet et j'ai du m'occuper de la majorité des fonctionnalités ainsi que l'interface graphique.",
         "competences": ["Java","Réaliser un développement d’application"]
     },
     {
@@ -33,28 +37,34 @@
         "src": "/imageProjet/saeCoinche.png",
         "alt": "Jeu de Coinche en ligne",
         "description": "Projet web de site de Coinche en ligne",
-        "competences": ["HTML","CSS","TAILWINDCSS","PYTHON","DJANGOPYTHON","SVELTE","JS"]
+        "longdescription": "Ce grand projet qui a eu lieu pendant l'entiereté de mon S3 et S4 a été un site web de jeu de cartes (Coinche) en ligne. J'ai pu réalisé le front-end en Svelte tandis que mes collègues ont réalisé l'API avec Djang Python ainsi que le lien avec les webs sockets pour envoyer les différentes données entre les joueurs. C'est un projet que j'ai beaucoup aimé faire et qui me tient beaucoup à coeur, étant mon premier vrai projet web",
+        "competences": ["HTML","CSS","TAILWINDCSS","PYTHON","DJANGOPYTHON","SVELTE","JS"],
+        "gitlink": "https://github.com/Jemery-Dev?tab=repositories"
     },
     {
         "category": "Personnel",
         "src": "/imageProjet/portfolio.png",
         "alt": "Portfolio",
         "description":"Site web personnel avec moi et mes projets",
-        "comptences": ["HTML","CSS","TAILWINDCSS","SVELTE","JS"]
+        "longdescription" : "Mon premier projet personnel en web que j'ai fais en utilisant Svelte et du Tailwind css, j'ai beaucoup aimé le faire car j'ai pu mettre ma propre pâte graphique et mes propres envies de design ou de façon de faire sans respecter un cahier des charges. Evidemment c'était important de garder une qualité de code joli et j'ai essayé de faire au mieux pour que le tout soit lisible par une autre personne.",
+        "comptences": ["HTML","CSS","TAILWINDCSS","SVELTE","JS"],
+        "gitlink": "https://github.com/Jemery-Dev/MyPortfolio"
     },
     {
         "category": "Personnel",
         "src": "/imageProjet/pokemonapi.png",
         "alt": "API Pokemon",
         "description":"Projet d'une simple API en Rust",
-        "comptences": ["RUST"]
+        "comptences": ["RUST"],
+        "gitlink": "https://github.com/Jemery-Dev/PokemonAPI"
     },
     {
         "category": "Personnel",
-        "src": "/imageProjet/portfolio.png",
+        "src": "/imageProjet/deantui.png",
         "alt": "DeanTUI",
         "description":"Interface TUI en Rust d'éditeur de tablatures",
-        "comptences": ["RUST"]
+        "comptences": ["RUST"],
+        "gitlink": "https://github.com/Jemery-Dev/DeanTUI"
     }
   ]
   
