@@ -11,8 +11,6 @@
 
 <div class="flex flex-wrap items-center justify-center text-4xl text-gray-100 font-black mb-12 mt-12">
     Projets
-    <div class="lg:w-1 h-[1200px] bg-white absolute top-[3200px]"></div>
-    <div class="lg:w-[1500px] h-1 bg-white absolute top-[3270px]"></div>
 </div>
     <div class="lg:grid lg:grid-cols-2 md:grid md:grid-cols-1">
     <ProjectHolder projects={projetsUniversitaires} titreListe="Universitaire" srcTitre="/imageProjet/icons8-universite-96.png" class="lg: border-r-8 border-gray-950"> </ProjectHolder>
