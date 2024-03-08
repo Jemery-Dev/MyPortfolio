@@ -12,8 +12,8 @@
 </script>
 
 <Modal title="{project.alt}" {color} bind:open={open} autoclose outsideclose>
-  <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400"></p>
-  <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">{project.longdescription}</p>
+  <p class="text-base leading-relaxed text-gray-300 dark:text-gray-200"></p>
+  <p class="text-base leading-relaxed text-gray-300 dark:text-gray-200">{project.longdescription}</p>
   <svelte:fragment slot="footer">
       <!-- Add event handler to call handleClose function when the button is clicked -->
       <Button color="alternative" on:click={handleClose}>Fermer</Button>
