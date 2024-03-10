@@ -2,7 +2,7 @@
   // @ts-nocheck
   import ColorfulTitle from '../../components/TitleColor.svelte';
   import SousTitre from '../../components/Undertitle.svelte'
-  import {Carousel, Avatar} from  'flowbite-svelte'
+  import {Carousel, Avatar, DarkMode} from  'flowbite-svelte'
   import images from '../../data/projects.json';
   import { onMount } from 'svelte';
   
@@ -11,8 +11,7 @@
   images.sort(() => Math.random() - 0.5);
 
 </script>
-
-<section id="presentation" class="py-20 text-white">
+<section id="presentation" class="py-20 text-white dark:bg-slate-800">
   <div class="container mx-auto text-center">
     <div class="context-square">
       <ColorfulTitle text="Jérémy Girard"/>
@@ -34,7 +33,7 @@
         <li></li>
       </ul>
       <div class="flex items-center justify-center space-x-4 rtl:space-x-reverse ">
-        <p class="text-gray-300 mt-32 mb-8 border-sky-700 text-lg font-bold bg-gray-800 rounded-md">{textePresentation} </p>
+        <p class="dark:text-gray-300 mt-32 mb-8 border-sky-700 text-lg font-bold text-slate-700 bg-beige dark:bg-gray-800 rounded-md ">{textePresentation} </p>
       </div>
       <div id="liste-projets" class="mt-16">
         <div class="max-w-4xl mx-auto space-y-4">
@@ -43,7 +42,7 @@
             <Controls />
             <Indicators />
           </Carousel>
-          <div class="rounded h-10 bg-gray-300 dark:bg-gray-700 dark:text-white p-2 my-2 text-center">
+          <div class="rounded h-10 text-slate-700 bg-white dark:bg-gray-700 dark:text-white p-2 my-2 text-center ">
             {image?.alt}
           </div>
         </div>

@@ -4,16 +4,16 @@
   export let open;
   export let project;
 
-  let color = 'blue';
+  let color = 'green';
 
   function handleClose() {
-      open = false; // Mettre à jour la valeur de open pour fermer le modal
+      open = false;
   }
 </script>
 
 <Modal title="{project.alt}" {color} bind:open={open} autoclose outsideclose>
-  <p class="text-base leading-relaxed text-gray-300 dark:text-gray-200"></p>
-  <p class="text-base leading-relaxed text-gray-300 dark:text-gray-200">{project.longdescription}</p>
+  <p class="text-base leading-relaxed text-slate-700 dark:text-gray-200"></p>
+  <p class="text-base leading-relaxed text-slate-700 dark:text-gray-200">{project.longdescription}</p>
   <svelte:fragment slot="footer">
       <!-- Add event handler to call handleClose function when the button is clicked -->
       <Button color="alternative" on:click={handleClose}>Fermer</Button>
