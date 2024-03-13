@@ -38,7 +38,7 @@
       }
     }
   
-    body:hover span {
+    :global(body:hover span) {
       animation: bounce 0.6s;
     }
   

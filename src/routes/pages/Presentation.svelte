@@ -36,13 +36,13 @@
         <p class="dark:text-gray-300 mt-32 mb-8 border-sky-700 text-lg font-bold text-slate-700 bg-beige dark:bg-gray-800 rounded-md ">{textePresentation} </p>
       </div>
       <div id="liste-projets" class="mt-16">
-        <div class="max-w-4xl mx-auto space-y-4">
+        <div class="max-w-4xl mx-auto space-y-4 ">
           <link rel="preload" href="{image?.src}" as="image" />
           <Carousel {images} let:Indicators let:Controls duration="10000" on:change={({ detail }) => (image = detail)}>
             <Controls />
             <Indicators />
           </Carousel>
-          <div class="rounded h-10 text-slate-700 bg-white dark:bg-gray-700 dark:text-white p-2 my-2 text-center ">
+          <div class="rounded h-10 text-slate-700 bg-yellow-100 dark:bg-gray-700 dark:text-white p-2 my-2 text-center ">
             {image?.alt}
           </div>
         </div>

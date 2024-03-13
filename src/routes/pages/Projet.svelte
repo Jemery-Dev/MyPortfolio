@@ -9,8 +9,9 @@
     const projetsPersonnels = projets.filter(projet => projet.category === 'Personnel');
  
 </script>
-
+    <div class="mt-44"></div>
     <MiniPartie text="Projet"/>
+    <div class="mb-10"></div>
 
     <div class="lg:grid lg:grid-cols-2 md:grid md:grid-cols-1">
         <div class="lg:border-r md: border-gray-400">
