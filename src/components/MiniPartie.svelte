@@ -34,7 +34,7 @@
 
     h1 span {
         display: inline-block;
-        animation: float .2s ease-in-out infinite;
+        animation: float 1s ease-in-out infinite;
     }
 
     @keyframes float {
