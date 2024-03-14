@@ -5,6 +5,7 @@
   import {Carousel, Avatar, DarkMode} from  'flowbite-svelte'
   import images from '../../data/projects.json';
   import { onMount } from 'svelte';
+ 
   
   let image;
   const textePresentation = `Salut, je suis Jérémy Girard, étudiant en deuxième année de BUT INFO à Lyon, passionné par le développement sous toutes ses facettes. J'adore créer et apprendre continuellement de nouvelles technologies pour affiner mes compétences. Ayant déjà réalisé plusieurs projets, dont ce portfolio que vous explorez actuellement, je vous invite à découvrir quelques-unes de mes créations en parcourant les différentes sections. Mon plaisir réside dans la concrétisation de projets concrets et significatifs, alors n'hésitez pas à plonger dans mon travail pour en savoir plus !`;

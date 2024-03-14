@@ -8,6 +8,7 @@ const config = {
     extend: {
       colors: {
         'beige': '#F5F5DC',
+        'darker-beige': '#A9957B',
       },
     }
   }
