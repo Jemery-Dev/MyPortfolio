@@ -18,14 +18,16 @@
 </script>
 
 <header class="fixed top-0 w-full z-10 bg-darker-beige dark:bg-slate-900 transition-all duration-300 ease-in-out">
-    <nav class="flex justify-between items-center py-4 px-6 ">
-        <div class="corner absolute top-4 left-6">
+    <nav class="lg:flex lg:justify-between lg:items-center lg:px-12 h-32 lg:h-20">
+        <div class="corner absolute top-10 lg:top-4 left-6">
             <DarkMode class="dark:bg-slate-800 text-gray-500 dark:text-gray-400 hover:bg-[#D9B382] dark:hover:bg-gray-700 rounded-lg text-xl p-2" />
        </div>
-        <svg viewBox="0 0 2 3" aria-hidden="true" class="fill-current dark:text-white" >
-            <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-        </svg>
-        <ul class="flex items-center text-white dark:text-white">
+       <div class="hidden lg:inline-block">
+            <svg viewBox="0 0 2 3" aria-hidden="true" class="fill-current dark:text-white hidden md:block" >
+                <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
+            </svg>
+        </div>
+        <ul class="flex flex-col lg:flex-row items-center text-white dark:text-white space-y-4 top-[30%] lg:top-0 lg:space-y-0 lg:space-x-8">
             <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
                 <a href="#presentation" on:click={scrollToSection} class="nav-link">Présentation</a>
             </li>
@@ -39,18 +41,21 @@
                 <a href="#contact" on:click={scrollToSection} class="nav-link">Me contacter</a>
             </li>
         </ul>
-        <svg viewBox="0 0 2 3" aria-hidden="true">
-            <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-        </svg>
+        <div class="hidden lg:inline-block">
+            <svg viewBox="0 0 2 3" aria-hidden="true" class="hidden md:block">
+                <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
+            </svg>
+        </div>
     </nav>
 
-    <div class="corner absolute top-4 right-6">
+    <div class="corner absolute top-9 lg:top-4 right-6">
         <a href="https://github.com/Jemery-Dev">
             <img src={github} alt="GitHub" class="dark:filter dark:invert" />
         </a>
     </div>
     
 </header>
+
 
 <style>
     .corner {
@@ -90,11 +95,24 @@
         display: block;
     }
 
-    path {
-        
+    path {       
         fill: var(--background);
     }
 
+@media (min-width: 640px){
+    ul {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        height: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+}
+
+@media (min-width:1024px){
     ul {
         position: relative;
         padding: 0;
@@ -107,6 +125,7 @@
         background: var(--background);
         background-size: contain;
     }
+}
 
     li {
         position: relative;

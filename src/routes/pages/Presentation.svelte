@@ -34,7 +34,7 @@
         <li></li>
       </ul>
       <div class="flex items-center justify-center space-x-4 rtl:space-x-reverse ">
-        <p class="dark:text-gray-300 mt-32 mb-8 border-sky-700 text-lg font-bold text-slate-700 bg-beige dark:bg-gray-800 rounded-md ">{textePresentation} </p>
+        <p class="dark:text-gray-300 mt-32 mb-8 border-sky-700 text-xs lg:text-lg font-bold text-slate-700 bg-beige dark:bg-gray-800 rounded-md mx-12">{textePresentation} </p>
       </div>
       <div id="liste-projets" class="mt-16">
         <div class="max-w-4xl mx-auto space-y-4 ">

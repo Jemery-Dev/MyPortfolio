@@ -1,6 +1,6 @@
 <footer class="bg-yellow-100 dark:bg-gray-900 dark:text-white text-slate-800 py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
-        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-24">
+    <div class="lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
                 <h3 class="text-xl font-bold mb-4">Me contacter</h3>
                 <ul class="space-y-3">

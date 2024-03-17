@@ -12,27 +12,15 @@
 <style>
     @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
-    html, body {
-        height: 100%;
-    }
-
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px 0;
-        text-align: center;
-        background: beige;
-        overflow: hidden;
-    }
 
     h1 {
-        font-size: 5em;
+        font-size: 100%;
         font: bold 7.5vw/1.6 'Signika', sans-serif;
         user-select: none;
     }
 
     h1 span {
+        font-size: 50px;
         display: inline-block;
         animation: float 1s ease-in-out infinite;
     }
@@ -51,7 +39,7 @@
         }
     }
 
-    body:hover span {
+    :hover span {
         animation: bounce .6s;
     }
 
