@@ -51,17 +51,10 @@
     }
 
     .title {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 8.5vw;
         text-transform: uppercase;
-    }
-
-    :global(body) {
-        background-color: #fdf9fd;
-        color: #011a32;
-        font: 16px/1.25 'Raleway', sans-serif;
-        text-align: center;
     }
 
     :global(#wrapper) {
@@ -80,17 +73,10 @@
         width: 100%;
     }
 
-
-    @media (prefers-reduced-motion: reduce) {
-        * {
-            animation: none !important;
-            transition: none !important;
-        }
-    }
 </style>
 
 <div class="container">
-    <h2 class="title">
+    <h2 class="title font-serif">
         {#each text.split(' ') as word, i}
         <span class={`title-word title-word-${i + 1}`}>{word}</span>
         {i !== text.split('').length - 1 && ' '}
