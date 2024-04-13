@@ -10,7 +10,7 @@
     "alt": "Rust",
     "category": ["Back-End","Programmation","API"],
     "src": "/imageProjet/skills/icons8-langage-de-programmation-rust-96.png",
-    "href" : "https://fr.wikipedia.org/wiki/C_(langage)",
+    "href" : "https://www.rust-lang.org",
     "text" : "Rust a été mon premier langage de programmation back-end où je me suis réellement investi personnellement dedans, j'ai pu expérimenter avec différents mini-projets dont une API Pokédex. Mais surtout j'ai pu commencer la réalisation d'un projet d'éditeur de tablature sous terminal nommée DeanTUI"
   },
   {

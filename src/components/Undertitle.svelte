@@ -14,7 +14,7 @@
 </style>
 
 <div class="container">
-    <div class="title text-2xl">
+    <div class="dark:text-white text-slate-900 title sm:text-l md:text-xl lg:2xl:">
         {undertext}
     </div>
 </div>
