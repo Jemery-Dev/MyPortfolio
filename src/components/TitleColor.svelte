@@ -76,7 +76,7 @@
 </style>
 
 <div class="container">
-    <h2 class="title font-serif">
+    <h2 class="title">
         {#each text.split(' ') as word, i}
         <span class={`title-word title-word-${i + 1}`}>{word}</span>
         {i !== text.split('').length - 1 && ' '}
