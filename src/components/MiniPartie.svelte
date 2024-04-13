@@ -2,7 +2,7 @@
     // @ts-nocheck
     export let text = "null";
 </script>
-    <h1 class="dark:text-white text-black">
+    <h1 class="dark:text-white text-black ">
         {#each text.split('') as char}
             <span>{char}</span>
         {/each}
@@ -11,7 +11,6 @@
     @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
     h1 {
-        font-size: 100%;
         font: bold 7.5vw/1.6 'Signika', sans-serif;
         user-select: none;
     }
