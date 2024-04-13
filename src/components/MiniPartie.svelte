@@ -2,7 +2,7 @@
     // @ts-nocheck
     export let text = "null";
 </script>
-    <h1 class="dark:text-white text-black ">
+    <h1 class="dark:text-white text-black">
         {#each text.split('') as char}
             <span>{char}</span>
         {/each}

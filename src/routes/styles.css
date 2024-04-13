@@ -151,18 +151,3 @@
     }
 
 }
-
-.slide-in-from-right {
-    animation: 1.5s ease-out 0s 1 slideInFromRight forwards;
-  }
-  
-  @keyframes slideInFromRight {
-    0% {
-      transform: translateX(50%);
-      opacity: 0.0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
