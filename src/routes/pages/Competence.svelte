@@ -32,7 +32,7 @@
   </div>
   
   
-  <div id="gallery" class="grid  gap-4 md:grid-cols-3 lg:grid-cols-5">
+  <div id="gallery" class="grid  gap-4 md:grid-cols-2 lg:grid-cols-5">
     <Card class="hidden"/>
     {#each skills as skill (skill.alt)}
       {#if skill.alt && (skill.alt.toLowerCase().includes(searchTexte.toLowerCase()) || searchTexte === "")}
