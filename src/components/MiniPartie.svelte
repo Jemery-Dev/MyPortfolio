@@ -36,9 +36,6 @@
         }
     }
 
-    :hover span {
-        animation: bounce .6s;
-    }
 
     @keyframes bounce {
         0%, 100% {
