@@ -17,7 +17,7 @@
 
 </script>
 
-<header class="fixed top-0 w-full z-10 bg-darker-beige dark:bg-slate-900 transition-all duration-300 ease-in-out">
+<header class="fixed top-0 w-full z-10 bg-cyan-200 dark:bg-slate-900 transition-all duration-300 ease-in-out">
     <nav class="lg:flex lg:justify-between lg:items-center lg:px-12 h-32 lg:h-20">
         <div class="corner absolute top-10 lg:top-4 left-6">
             <DarkMode class="dark:bg-slate-800 text-gray-500 dark:text-gray-400 hover:bg-[#D9B382] dark:hover:bg-gray-700 rounded-lg text-xl p-2" />
