@@ -67,7 +67,7 @@
         <div class="space-y-8 gap-x-4 md:grid-cols-1 lg:grid-cols-2 grid">
             <Card class="hidden"></Card>
             {#each miniLists[currentPage] as project, index (project.alt)}
-                <Card class="max-w-96 h-[500px] !mr-0 !ml-0 mx-4 border-yellow-500 dark:border-slate-900 bg-beige hover:!bg-rose-50 !border-2 !dark:bg-slate-800 dark:hover:!bg-slate-900" on:click={() => openModal(index)}>
+                <Card class="max-w-96 h-[500px] !mr-0 !ml-0 mx-4 bg-yellow-100 hover:!bg-rose-50 !border-2 !dark:bg-slate-800 dark:hover:!bg-slate-900" on:click={() => openModal(index)}>
                     <ModalProject bind:open={modalOpen[index]} project={project}></ModalProject>
                     <div class="grid grid-col-1 col-start-1">
                         <Icon gitlink={project.gitlink}></Icon>
