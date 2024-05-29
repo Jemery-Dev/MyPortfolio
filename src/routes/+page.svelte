@@ -9,7 +9,7 @@
 
 </script>
 
-<div class="bg-beige dark:bg-slate-800">
+<div class="bg-cyan-50 dark:bg-slate-800">
   <Header />
   <section id="presentation"><Presentation /></section>  
   <section id="competence"><Competence /></section>
