@@ -3,7 +3,7 @@
     import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
 </script>
 
-<Footer footerType="socialmedia" class="bg-darker-beige dark:bg-slate-900">
+<Footer footerType="socialmedia" class="bg-cyan-200 dark:bg-slate-900">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
         <FooterBrand href="https://flowbite.com" src="/favicon.jpg" alt="Portfolio Logo" name="Jérémy Girard" />
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <hr class="my-6 border-gray-800 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between">
       <FooterCopyright href="/" by="Jérémy Girard" />
       <div class="flex mt-4 space-x-6 rtl:space-x-reverse sm:justify-center sm:mt-0">
