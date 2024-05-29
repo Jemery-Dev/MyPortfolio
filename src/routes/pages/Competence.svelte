@@ -44,7 +44,7 @@
             <img src={skill.src} alt={skill.alt} class="w-24 h-24 mx-auto mb-3" />
             <h5 class="mb-2 text-lg font-bold text-gray-900 dark:text-white">{skill.alt}</h5>
             <p class="mb-2 text-sm font-normal text-gray-700 dark:text-gray-400">{montrerCategory(skill.category)}</p>
-            <Popover class="w-96 text-justify font-medium z-10 !text-slate-300 ease-in-out duration-500" title="{skill.alt}" triggeredBy="#{skill.alt}-id">{skill.text}</Popover>
+            <Popover class="w-96 text-justify font-medium z-10 !dark:text-slate-300 ease-in-out duration-500" title="{skill.alt}" triggeredBy="#{skill.alt}-id">{skill.text}</Popover>
           </Card>
         {/if}
       {/if}
