@@ -10,8 +10,8 @@
 
 <div class="flex justify-center items-center my-12">
 	<Timeline>
-		{#each experiences as experience}
-			<TimelineItem title="{experience.title}" date="{experience.date}">
+			{#each experiences as experience}
+			<TimelineItem title="{experience.title}" date="{experience.date}" timeClass="!text-base">>
 				<div class="mx-16">
 					<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-center">
 						{experience.paragraph}
