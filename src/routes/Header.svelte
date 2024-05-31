@@ -27,17 +27,20 @@
                 <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
             </svg>
         </div>
-        <ul class="flex flex-col lg:flex-row items-center text-white dark:text-white space-y-4 top-[30%] lg:top-0 lg:space-y-0 lg:space-x-8">
-            <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+        <ul class="flex flex-col hidden md:block lg:block lg:flex-row items-center text-white dark:text-white space-y-4 top-[30%] lg:top-0 lg:space-y-0 lg:space-x-8">
+            <li>
                 <a href="#presentation" on:click={scrollToSection} class="nav-link">Présentation</a>
             </li>
-            <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+            <li>
                 <a href="#competence" on:click={scrollToSection} class="nav-link">Compétences</a>
             </li>
-            <li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
+            <li>
                 <a href="#projet" on:click={scrollToSection} class="nav-link">Projet</a>
             </li>
-            <li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
+            <li>
+              <a href="#experience" on:click={scrollToSection} class="nav-link">Expérience</a>
+            </li>
+            <li>
                 <a href="#contact" on:click={scrollToSection} class="nav-link">Me contacter</a>
             </li>
         </ul>
@@ -53,7 +56,7 @@
             <img src={github} alt="GitHub" class="dark:filter dark:invert" />
         </a>
     </div>
-    
+
 </header>
 
 
@@ -95,7 +98,7 @@
         display: block;
     }
 
-    path {       
+    path {
         fill: var(--background);
     }
 
