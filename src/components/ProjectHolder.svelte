@@ -71,7 +71,7 @@
                     <ModalProject bind:open={modalOpen[index]} project={project}></ModalProject>
                     <div class="grid grid-col-1 col-start-1">
                         <Icon gitlink={project.gitlink}></Icon>
-                        <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{project.alt}</h5>
+                        <h5 class="mb-2 text-3xl h-[72px] font-bold tracking-tight text-gray-900 dark:text-white">{project.alt}</h5>
                         <div class="bg-slate-700 dark:bg-gray-100 max-w-full h-1"></div>
                     </div>
                     <div class="flex items-center flex-wrap">

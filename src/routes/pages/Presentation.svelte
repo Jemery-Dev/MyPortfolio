@@ -35,7 +35,7 @@
       </ul>
       <div class="flex items-center justify-center space-x-4 rtl:space-x-reverse ">
         <p class="dark:text-gray-300 mt-32 mb-8 border-sky-700 text-xs lg:text-lg font-bold text-slate-700 rounded-md mx-12">{textePresentation} </p>
-      </div>z
+      </div>
     </div>
   </div>
 </section>

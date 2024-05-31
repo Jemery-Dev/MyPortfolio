@@ -7,7 +7,7 @@
   
   <h2>
     {#each text.split('') as char, i}
-      <span style="animation-delay: {delay * i}s">{char}</span>
+      <span style="animation-delay: {delay * i}s" class="dark:text-white text-black">{char}</span>
     {/each}
   </h2>
   
