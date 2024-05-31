@@ -28,10 +28,10 @@
     {
         "category": "Universitaire",
         "src": "/imageProjet/projetPHP.png",
-        "alt": "Blog Web en PHP",
-        "description": "Blog simple fait en PHP connecté à une BD",
-        "longdescription" : "Ce projet universitaire consistait en la création d'un blog simple en PHP connecté à une base de données. Il s'agissait d'une opportunité pour moi de renforcer mes compétences en HTML, CSS, PHP et SQL.",
-        "competences": ["HTML","CSS","PHP","SQL"]
+        "alt": "Site de courses en Symfony",
+        "description": "Maki Malin, une application Web en Symfony PHP.",
+        "longdescription": "Ce projet universitaire, réalisé avec Symfony PHP, a été une expérience très agréable. Nous avions beaucoup de liberté pour développer notre application tant que nous respections le sujet imposé. J'ai pu consolider mes compétences en HTML, CSS, PHP et SQL tout en créant une application web dynamique et interactive.",
+        "competences": ["HTML", "CSS", "PHP", "SQL", "SYMFONY"]
     },
     {
         "category": "Universitaire",
@@ -67,6 +67,24 @@
         "longdescription" : "Actuellement mon projet le plus ambitieux, j'ai entrepris la création d'une interface utilisateur en mode texte (TUI) pour un éditeur de tablatures de musique en Rust. Utilisant Ratatui et mes compétences en musique, je vise à créer un outil similaire à Songsterr, mais entièrement accessible via le terminal. Bien que le projet soit encore en cours, il représente une véritable passion pour moi et je suis déterminé à le mener à bien.",
         "comptences": ["RUST"],
         "gitlink": "https://github.com/Jemery-Dev/DeanTUI"
+    },
+    {
+        "category": "Personnel",
+        "src": "/imageProjet/zeldaguesser.png",
+        "alt": "ZeldaGuesser",
+        "description": "Un site de devinette au thème Zelda",
+        "longdescription": "J'ai fais ce projet vis à vis de ma passion pour le jeu Zelda, et je souhaitais pouvoir mettre ma connaissance du jeu à l'épreuve au fil de devinettes sur un site web. Réalisé avec Svelte, j'ai encore solidifié mes connaissances sur ce Framework.",
+        "competences": ["SVELTE", "HTML", "CSS", "TAILWINDCSS", "JS"],
+        "gitlink": "https://github.com/Jemery-Dev/zeldaguessr"
+    },
+    {
+        "category": "Personnel",
+        "src": "/imageProjet/pariquantitatif.png",
+        "alt": "Pari Quantitatif",
+        "description": "Site de jeu de société en Angular",
+        "longdescription": "Ce projet Web a été fait avec 2 amis, le principe était de reproduire TTMC ou Tu Te Mets Combien, un jeu de société où il faut s'auto évaluer puis répondre à une question en fonction d'un thème. Appréciant beaucoup l'idée de ce jeu nous avons décidé de faire un site web pour pouvoir y jouer quand nous avions envie.",
+        "competences": ["HTML","CSS","ANGULAR","JS"],
+        "gitlink": "https://github.com/Jemery-Dev/Pari-Quantitatif"
     }
   ]
   
