@@ -1,91 +1,91 @@
 [
   {
     "alt": "JavaScript",
-    "category": ["Front-End","Web","Programmation"],
+    "category": ["Front-End"],
     "src": "/imageProjet/skills/icons8-javascript-96.png",
     "href" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
     "text" : "Le JavaScript est un langage que j'ai beaucoup utilisé pour faire de nombreux projets webs, que ça soit le Portfolio sur lequel vous êtes actuellement, mon site de Coinche en ligne ou pleins d'autres petits projets. Le JS a été l'un des langages que j'ai pu le plus utilisé au cours de mes études"
   },
   {
     "alt": "Rust",
-    "category": ["Back-End","Programmation","API"],
+    "category": ["Back-End"],
     "src": "/imageProjet/skills/icons8-langage-de-programmation-rust-96.png",
     "href" : "https://www.rust-lang.org",
     "text" : "Rust a été mon premier langage de programmation back-end où je me suis réellement investi personnellement dedans, j'ai pu expérimenter avec différents mini-projets dont une API Pokédex. Mais surtout j'ai pu commencer la réalisation d'un projet d'éditeur de tablature sous terminal nommée DeanTUI"
   },
   {
     "alt": "C",
-    "category": ["Back-End","Programmation"],
+    "category": ["Back-End"],
     "src": "/imageProjet/skills/icons8-c-96.png",
     "href" : "https://fr.wikipedia.org/wiki/C_(langage) ",
     "text" : "Le langage C a été ma première introduction au développement back-end lorsque j'étais en première année de BUT. Bien que je n'étais pas très enthousiaste au départ, j'ai rapidement découvert ses nombreux avantages. Aujourd'hui, je le maîtrise suffisamment pour l'utiliser de manière occasionnelle."
   },
   {
     "alt": "CSS",
-    "category": ["Front-End","Web"],
+    "category": ["Front-End"],
     "src": "/imageProjet/skills/icons8-css3-96.png",
     "href" : "https://developer.mozilla.org/fr/docs/Web/CSS",
     "text" : "Le CSS est un langage qui ne m'a pas beaucoup plu au début, je le trouvais complexe et pas intéressant. Mais après m'être entrainé sur différents sites de CSS comme 100DaysCss ou CSS Challenge, j'ai pu voir à quel point ce langage est amusant à utiliser tout en restant pratique"
   },
   {
     "alt": "HTML",
-    "category": ["Front-End","Web"],
+    "category": ["Front-End"],
     "src": "/imageProjet/skills/icons8-html-5-96.png",
     "href" : "https://developer.mozilla.org/fr/docs/Web/HTML",
     "text": "Difficile d'imaginer le web sans ce bon vieux HTML, un langage que j'ai largement exploité. C'était même mon premier langage qui m'a passionné lorsque j'étais en première année. Depuis, je l'utilise presque tous les mois sur divers projets, tant il demeure la fondation du web."
   },
   {
     "alt": "Java",
-    "category": ["Back-End","Programmation"],
+    "category": ["Back-End"],
     "src": "/imageProjet/skills/icons8-java-96.png",
     "href" : "https://www.java.com/fr/",
     "text": "Le Java représente mon introduction au paradigme orienté objet, bien que j'aie initialement trouvé son système de classes complexe. Rapidement, j'ai reconnu son efficacité pour la réalisation de divers projets. Malgré ma préférence pour les langages non orientés objet, Java demeure probablement mon choix favori pour les orientés objet."
   },
   {
     "alt": "PHP",
-    "category": ["Back-End","Base de données","Web"],
+    "category": ["Back-End"],
     "src": "/imageProjet/skills/icons8-php-96.png",
     "href" : "https://www.php.net/manual/fr/intro-whatis.php",
     "text" : "Le PHP a été l'un des langages qui m'ont fait découvrir l'importance et le potentiel des bases de données. Grâce à lui, j'ai pu développer divers projets tels que des blogs, entre autres, ce qui m'a permis d'explorer les multiples facettes du développement web côté serveur, une expérience que j'ai trouvée particulièrement enrichissante."
   },
   {
     "alt": "Python",
-    "category": ["Back-End","Programmation"],
+    "category": ["Back-End"],
     "src": "/imageProjet/skills/icons8-python-96.png",
     "href" : "https://www.python.org",
     "text" : "Le Python n'occupe pas une place spéciale dans mon cœur, même s'il a été largement utilisé de mon lycée jusqu'à l'université. Je ne suis pas fan de sa simplicité, que je considère comme un défaut. Bien sûr, sa rapidité et sa richesse en bibliothèques sont des atouts indéniables, mais à mes yeux, ce n'est pas le meilleur choix pour le développement backend."
   },
   {
     "alt": "Svelte",
-    "category": ["Front-End","Web","Framework"],
+    "category": ["Front-End, Framework"],
     "src": "/imageProjet/skills/icons8-svelte-96.png",
     "href" : "https://svelte.dev",
     "text" : "Svelte a été mon premier framework web et ce fut un coup de foudre. Pour moi, c'est le meilleur grâce à sa simplicité et sa bibliothèque de composants pratiques. J'ai utilisé Svelte pour le front-end de mon projet de Coinche et également pour ce portfolio, une expérience que j'adore."
   },
   {
     "alt": "Tailwind",
-    "category": ["Front-End","Web"],
+    "category": ["Front-End"],
     "src": "/imageProjet/skills/icons8-tailwindcss-96.png",
     "href" : "https://tailwindcss.com",
     "text" : "J'ai découvert des alternatives au CSS, comme TailWind, que je trouve remarquablement pratique pour créer rapidement des pages web. Bien que son utilisation puisse être limitée, je pense que le meilleur résultat en matière de style est obtenu en combinant CSS et Tailwind."
   },
   {
     "alt": "MySQL",
-    "category": ["Back-End","Base de données"],
+    "category": ["Base de données"],
     "src": "/imageProjet/skills/icons8-sql-96.png",
     "href" : "https://www.mysql.com/fr/",
     "text" : "Le SQL a été l'un des premiers langages que j'ai appris, et je n'avais aucune idée de son importance dans le domaine du développement. Bien que les requêtes SQL ne figurent pas parmi mes préférées, sa syntaxe phrasée le rend très pratique, facilitant la mémorisation des différents outils."
   },
   {
     "alt" : "Django",
-    "category" : ["Back-End","Web","Framework","Base de données"],
+    "category" : ["Back-End","Framework"],
     "src" : "/imageProjet/skills/icons8-django-96.png",
     "href" : "https://www.djangoproject.com",
     "text" : "Django, en Python, a été ma première expérience avec une API. Bien que l'idée de coder en Python ne m'enthousiasmait pas au départ, la possibilité de traiter directement des requêtes SQL depuis du code Python me convenait mieux. Bien que je n'aie pas eu beaucoup d'occasions d'utiliser Django, dans ce que j'ai pu en faire, j'ai trouvé l'ensemble très pratique."
   },
   {
     "alt" : "Docker",
-    "category": ["Back-End", "DevOps", "Infrastructure"],
+    "category": ["Outil"],
     "src": "/imageProjet/skills/icons8-docker-96.png",
     "href": "https://www.docker.com/",
     "text": "Docker est omniprésent de nos jours. Il est devenu totalement superflu d'installer localement des logiciels lorsque Docker peut tout gérer pour vous. J'ai découvert la création de namespaces et le fonctionnement de Docker lors de cours sous Linux, une expérience que j'ai trouvée extrêmement intéressante."
@@ -99,44 +99,58 @@
   },
   {
     "alt" : "Symfony",
-    "category" : ["Back-End","Web","Framework"],
+    "category" : ["Back-End","Framework"],
     "src" : "/imageProjet/skills/icons8-symfony-96.png",
     "href" : "https://symfony.com",
     "text" : "Symfony fut un framework complexe à appréhender au début. Initialement, je le voyais comme un simple framework web, mais il s'est révélé être totalement différent des autres, avec une forte orientation back-end. Cependant, la facilité avec laquelle on peut créer des objets et des relations entre eux est stupéfiante, surtout compte tenu du temps que j'avais passé sans utiliser Symfony auparavant."
   },
   {
     "alt" : "Vue",
-    "category" : ["Front-End","Web","Framework"],
+    "category" : ["Front-End","Framework"],
     "src" : "/imageProjet/skills/icons8-vue-js-96.png",
     "href" : "https://vuejs.org",
     "text" : "Vue est un framework que j'ai découvert pour la première fois en cours pendant mon BUT. Au début, je n'étais pas vraiment convaincu, mais je dois admettre qu'il présente des aspects pratiques uniques qui me font l'apprécier de plus en plus."
   },
   {
     "alt" : "React",
-    "category" : ["Framework","Front-End","Framework"],
+    "category" : ["Framework","Front-End"],
     "src" : "/imageProjet/skills/icons8-react-96.png",
     "href" : "https://fr.legacy.reactjs.org",
     "text" : "Que dire du framework le plus connu, React ? Pour être honnête, ce fut un peu une déception lors de ma première utilisation. Je m'attendais à quelque chose de simple et pratique, mais au lieu de cela, j'ai trouvé que cela me causait plus de problèmes que autre chose. Cependant, avec le temps, j'ai commencé à comprendre ses mécanismes, qui sont curieusement différents de ceux des autres frameworks."
   },
   {
     "alt" : "SpringBoot",
-    "category" : ["Framework","Back-End","Web"],
+    "category" : ["Framework","Back-End"],
     "src" : "/imageProjet/skills/icons8-spring-boot-96.png",
     "href" : "https://spring.io/projects/spring-boot",
     "text" : "Spring Boot a marqué ma première incursion dans le développement d'API connectées à des bases de données. J'ai réalisé un projet simple consistant à créer une base de données PostgreSQL de quiz, que j'ai manipulée avec Spring Boot, puis intégrée à un site web pour affichage. Cet exercice m'a permis de mieux comprendre le fonctionnement du système."
   },
   {
     "alt" : "MongoDB",
-    "category" : ["Base de données","Back-End"],
+    "category" : ["Base de données"],
+    "href" : "./",
     "src" : "/imageProjet/skills/icons8-mongodb-96.png",
-    "href" : "https://spring.io/projects/spring-boot",
     "text" : "MongoDB a été ma première introduction aux modèles de données non relationnels, et je dois avouer que j'ai beaucoup plus apprécié cette approche que le SQL. Traiter directement avec des fichiers JSON est bien plus intuitif que les modèles de bases de données avec des clés primaires et étrangères. Une expérience enrichissante que je compte bien utiliser dans de nombreux projets à venir."
   },
   {
     "alt" : "PostgreSQL",
-    "category" : ["Base de données","Back-End"],
+    "href" : "./",
+    "category" : ["Base de données"],
     "src" :"/imageProjet/skills/icons8-postgresql-96.png",
-    "href" : "https://spring.io/projects/spring-boot",
     "text" : "J'ai eu l'occasion d'essayer le logiciel PostgreSQL car je voulais comparer ses fonctionnalités à celles d'autres logiciels comme Oracle ou MySQL. Je dois avouer que j'ai une nette préférence pour PostgreSQL. Son interface est très pratique et la plupart de mes bases de données sont maintenant hébergées dessus."
+  },
+  {
+    "alt" : "Angular",
+    "category" : ["Front-End", "Framework"],
+    "href" : "./",
+    "src" :"/imageProjet/skills/icons8-angularjs-96.png",
+    "text" : "Angular est un framework front-end que j'ai trouvé particulièrement intéressant, notamment en raison de sa gestion en quatre parties des composants. J'ai eu l'occasion de l'utiliser dans le cadre d'un projet nommé \"Pari Quantitatif\". Sa popularité croissante m'a poussé à l'essayer et j'ai été agréablement surpris par sa structure et ses fonctionnalités."
+  },
+  {
+    "alt" : "Node",
+    "category": ["Framework", "Back-End"],
+    "href" : "./",
+    "src": "/imageProjet/skills/icons8-node-js-96.png",
+    "text" : "Node.js est une plateforme d'exécution JavaScript, utilisée principalement pour le développement côté serveur. Elle permet de créer des serveurs web, des applications en temps réel et des API RESTful grâce à son modèle asynchrone et son gestionnaire de paquets NPM."
   }
 ]
