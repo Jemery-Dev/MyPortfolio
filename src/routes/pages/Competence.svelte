@@ -1,13 +1,13 @@
 <script>
   import {Card, Button, Search, Popover} from 'flowbite-svelte';
-  import {ArrowRightOutline } from 'flowbite-svelte-icons';
   import skills from '../../data/skills.json';
   import MiniPartie from '../../components/MiniPartie.svelte';
 
   // @ts-ignore
+  // eslint-disable-next-line no-unused-vars
   let image;
-  let choix = "all"; // Valeur pour les boutons de catégorie
-  let searchTexte = ""; // Valeur pour la search bar
+  let choix = "all";
+  let searchTexte = "";
 
   // @ts-ignore
   function montrerCategory(liste){
@@ -23,6 +23,10 @@
     searchTexte = event.target.value;
   }
 
+  function updateChoix(categorie) {
+    choix = categorie;
+  }
+
 </script>
 
 
@@ -32,6 +36,15 @@
 
   <div class="flex items-center justify-center py-4 md:py-8 flex-wrap gap-3 mb-3 mx-auto">
     <Search size="lg" placeholder="Rechercher compétence" on:input={updateSearchText} class="bg-teal-50 text-left"></Search>
+  </div>
+
+  <div class="flex items-center justify-center py-4 md:py-8 flex-wrap gap-3 mb-3 mx-auto">
+    <Button on:click={() => updateChoix('all')} class="dark:bg-gray-200 bg-gray-100 text-black">Tous</Button>
+    <Button on:click={() => updateChoix('Front-End')} class="bg-blue-500 text-white">Front-End</Button>
+    <Button on:click={() => updateChoix('Back-End')} class="bg-green-500 text-white">Back-End</Button>
+    <Button on:click={() => updateChoix('Base de données')} class="bg-yellow-500 text-white">Base de données</Button>
+    <Button on:click={() => updateChoix('Framework')} class="bg-indigo-500 text-white">Framework</Button>
+    <Button on:click={() => updateChoix('Outil')} class="bg-pink-500 text-white">Outil</Button>
   </div>
   
   
