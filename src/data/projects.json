@@ -14,7 +14,7 @@
       "alt": "Annuaire en C",
       "description": "Structuration de données pour annuaire en TUI",
       "longdescription": "Durant mon premier semestre de BUT, nous avons réalisé un projet d'annuaire en langage C, en utilisant des fichiers CSV ou TXT comme sources de données. Ce programme permettait d'afficher les informations des clients dans le terminal et d'effectuer des actions telles que l'ajout, la suppression ou la modification de personnes. Nous avons également implémenté des fonctionnalités avancées telles que le tri. Avec du recul, j'ai réalisé que ce projet a constitué une sorte d'API utilisable via le terminal.",
-      "competences": ["C","Réaliser un développement d’application"],
+      "competences": ["C"],
       "gitlink": "https://github.com/Jemery-Dev/Annuaire-en-C"
     },
     {
@@ -23,7 +23,7 @@
         "alt": "Aide à la décision Java",
         "description": "Application Java d'aide à la prise de décisions",
         "longdescription":"Au cours du deuxième semestre, nous avons entrepris un projet d'application Java Swing en équipe de trois. Malheureusement, mes coéquipiers n'étaient pas très investis dans le projet, et j'ai dû assumer la majorité du développement, y compris la conception de l'interface graphique et la mise en place des fonctionnalités",
-        "competences" : ["Java","Réaliser un développement d’application"]
+        "competences" : ["Java"]
     },
     {
         "category": "Universitaire",
@@ -48,7 +48,7 @@
         "alt": "Portfolio",
         "description":"Site web personnel avec moi et mes projets",
         "longdescription" : "Mon premier projet personnel en développement web, ce portfolio m'a permis d'exprimer ma créativité en concevant une interface personnalisée. J'ai utilisé Svelte et Tailwind CSS pour sa réalisation, tout en veillant à maintenir un code propre et lisible.",
-         "comptences": ["HTML","CSS","TAILWINDCSS","SVELTE","JS"],
+         "competences": ["HTML","CSS","TAILWINDCSS","SVELTE","JS"],
         "gitlink": "https://github.com/Jemery-Dev/MyPortfolio"
     },
     {
@@ -56,7 +56,8 @@
         "src": "/imageProjet/pokemonapi.png",
         "alt": "API Pokemon",
         "description":"Projet d'une simple API en Rust",
-        "longdescription":"Dans ce projet, j'ai développé une API de Pokémon en Rust, en utilisant les bibliothèques Ntex et Serde pour gérer les requêtes HTTP et la sérialisation JSON. Bien que l'API soit simple, cette expérience m'a permis de mieux comprendre les principes de développement back-end en Rust.", "comptences": ["RUST"],
+        "competences": ["RUST"],
+        "longdescription":"Dans ce projet, j'ai développé une API de Pokémon en Rust, en utilisant les bibliothèques Ntex et Serde pour gérer les requêtes HTTP et la sérialisation JSON. Bien que l'API soit simple, cette expérience m'a permis de mieux comprendre les principes de développement back-end en Rust.",
         "gitlink": "https://github.com/Jemery-Dev/PokemonAPI"
     },
     {
@@ -65,7 +66,7 @@
         "alt": "DeanTUI",
         "description":"Interface TUI en Rust d'éditeur de tablatures",
         "longdescription" : "Actuellement mon projet le plus ambitieux, j'ai entrepris la création d'une interface utilisateur en mode texte (TUI) pour un éditeur de tablatures de musique en Rust. Utilisant Ratatui et mes compétences en musique, je vise à créer un outil similaire à Songsterr, mais entièrement accessible via le terminal. Bien que le projet soit encore en cours, il représente une véritable passion pour moi et je suis déterminé à le mener à bien.",
-        "comptences": ["RUST"],
+        "competences": ["RUST"],
         "gitlink": "https://github.com/Jemery-Dev/DeanTUI"
     },
     {
