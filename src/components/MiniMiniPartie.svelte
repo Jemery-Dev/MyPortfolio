@@ -12,7 +12,6 @@
   </h2>
   
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
   
     h2 {
       font-size: 3em;
