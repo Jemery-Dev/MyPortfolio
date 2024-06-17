@@ -24,6 +24,15 @@
       display: inline-block;
       animation: float 1s ease-in-out infinite;
     }
+
+    @media screen and (max-width: 600px) {
+      h2 {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Signika', sans-serif;
+        user-select: none;
+      }
+    }
   
     @keyframes float {
       0%, 100% {

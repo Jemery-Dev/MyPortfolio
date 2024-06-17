@@ -2,7 +2,7 @@
     // @ts-nocheck
     export let text = "null";
 </script>
-    <h1 class="dark:text-white text-black">
+    <h1 class="dark:text-white text-black cooltitle">
         {#each text.split('') as char}
             <span>{char}</span>
         {/each}
@@ -20,6 +20,11 @@
         display: inline-block;
         animation: float 1s ease-in-out infinite;
 
+    }
+    @media screen and (max-width: 600px) {
+        h1 span {
+            font-size: 40px;
+        }
     }
 
     @keyframes float {
