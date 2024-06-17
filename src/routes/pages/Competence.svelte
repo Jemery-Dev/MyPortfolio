@@ -2,6 +2,8 @@
   import {Card, Button, Search, Popover} from 'flowbite-svelte';
   import skills from '../../data/skills.json';
   import MiniPartie from '../../components/MiniPartie.svelte';
+  import { AccordionItem, Accordion } from 'flowbite-svelte';
+
 
   // @ts-ignore
   // eslint-disable-next-line no-unused-vars
@@ -63,5 +65,57 @@
       {/if}
     {/each}
   </div>
+
+  <MiniPartie text="Universitaire"></MiniPartie>
+  <div class="flex justify-center items-center">
+    <div class="w-6/12">
+      <Accordion class="">
+        <AccordionItem>
+          <span slot="header">Réaliser des applications</span>
+            <li>Maîtrise des concepts de la programmation orientée objet et événementielle.</li>
+            <li>Compétence dans divers langages : Java, PHP, JavaScript/Typescript, C, Python, PL/SQL, HTML, CSS.</li>
+            <li>Écriture de code de qualité avec tests unitaires et documentation.</li>
+            <li>Création d'algorithmes pour la résolution de problèmes.</li>
+        </AccordionItem>
+        <AccordionItem>
+          <span slot="header">Optimiser des applications informatiques</span>
+          <li>Analyse et optimisation d'algorithmes.</li>
+          <li>Utilisation d'outils mathématiques pour l'optimisation.</li>
+          <li>Utilisation d'outils de profiling pour optimiser les applications.</li>
+        </AccordionItem>
+        <AccordionItem>
+          <span slot="header">Administrer des systèmes informatiques communicants complexes</span>
+          <li>Installation, configuration et gestion des systèmes d'exploitation (Windows et Linux).</li>
+          <li>Maîtrise des concepts de base des réseaux et de la sécurité informatique.</li>
+          <li>Maîtrise des concepts de base de la virtualisation</li>
+          <li>Résolution des problèmes sur un système d'exploitation.</li>
+        </AccordionItem>
+        <AccordionItem>
+          <span slot="header">Gérer des données de l'information</span>
+          <li>Maîtrise des langages PL/SQL.</li>
+          <li>Utilisation de différents SGBD : Oracle, MySQL, MariaDB, SQLite.</li>
+          <li>Conception d'un MCD et d'un MLD.</li>
+          <li>Conception d'API pour manipuler des données dans une base de données.</li>
+        </AccordionItem>
+        <AccordionItem>
+          <span slot="header">Conduire un projet</span>
+          <li>Planification d'un projet.</li>
+          <li>Réalisation d'un projet en équipe.</li>
+          <li>Rédaction de documents de projet (cahier des charges, spécifications techniques, etc.).</li>
+          <li>Communication avec un client et une équipe.</li>
+        </AccordionItem>
+        <AccordionItem>
+          <span slot="header">Travailler dans une équipe informatique</span>
+          <li>Gestion d'une petite équipe informatique.</li>
+          <li>Communication efficace au sein d'une équipe.</li>
+          <li>Connaissance des différentes méthodes de développement et leur application.</li>
+          <li>Gestion du temps de chaque membre de l'équipe et supervision du bon fonctionnement du projet.</li>
+          <li>Résolution des conflits au sein de l'équipe.</li>
+          <li>Veille constante sur les nouveautés dans le domaine de l'informatique.</li>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  </div>
+
 </section>
 
