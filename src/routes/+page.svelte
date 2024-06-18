@@ -1,4 +1,5 @@
 <script>
+  import { dev } from '$app/environment';
   import { inject } from '@vercel/analytics'
   import Presentation from './pages/Presentation.svelte';
   import Competence from './pages/Competence.svelte';
@@ -7,11 +8,9 @@
   import Header from './Header.svelte';
   import Experience from './pages/Experience.svelte';
   import './styles.css';
-  import { onMount } from 'svelte';
 
-  onMount(async () => {
-    inject();
-  });
+
+  inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="bg-cyan-50 dark:bg-slate-800">
