@@ -7,8 +7,11 @@
   import Header from './Header.svelte';
   import Experience from './pages/Experience.svelte';
   import './styles.css';
+  import { onMount } from 'svelte';
 
-  inject();
+  onMount(async () => {
+    inject();
+  });
 </script>
 
 <div class="bg-cyan-50 dark:bg-slate-800">
