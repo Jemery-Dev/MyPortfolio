@@ -1,4 +1,5 @@
 <script>
+  import { inject } from '@vercel/analytics'
   import Presentation from './pages/Presentation.svelte';
   import Competence from './pages/Competence.svelte';
   import Projet from './pages/Projet.svelte';
@@ -7,6 +8,7 @@
   import Experience from './pages/Experience.svelte';
   import './styles.css';
 
+  inject();
 </script>
 
 <div class="bg-cyan-50 dark:bg-slate-800">
