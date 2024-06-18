@@ -1,6 +1,4 @@
 <script>
-  import { dev } from '$app/environment';
-  import { inject } from '@vercel/analytics'
   import Presentation from './pages/Presentation.svelte';
   import Competence from './pages/Competence.svelte';
   import Projet from './pages/Projet.svelte';
@@ -10,7 +8,6 @@
   import './styles.css';
 
 
-  inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="bg-cyan-50 dark:bg-slate-800">
