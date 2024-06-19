@@ -6,7 +6,7 @@
 <Footer footerType="socialmedia" class="bg-cyan-200 dark:bg-slate-900">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
-        <FooterBrand href="https://flowbite.com" src="/favicon.jpg" alt="Portfolio Logo" name="Jérémy Girard" />
+        <FooterBrand href="https://flowbite.com" src="/favicon.png" alt="Portfolio Logo" name="Jérémy Girard" />
       </div>
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <div>
