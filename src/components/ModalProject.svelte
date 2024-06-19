@@ -1,6 +1,8 @@
 <script>
   // @ts-nocheck
   import { Modal } from 'flowbite-svelte';
+  import { writable } from 'svelte/store';
+
   export let open;
   export let project;
 
@@ -21,19 +23,26 @@
     "ANGULAR": "/imageProjet/skills/icons8-angularjs-96.png",
   };
 
+  let isOpen = writable(open);
+
   function getSkillLogo(skill) {
     return skillLogos[skill] || "/imageProjet/skills/default.png";
   }
 
+  $: isOpen.set(open);
+  isOpen.subscribe(value => open = value);
+
   let color = 'blue';
-  
 </script>
 
-<Modal title="{project.alt}" {color} bind:open={open} autoclose outsideclose>
-  <p class="text-base leading-relaxed text-slate-700 dark:text-gray-200">{project.longdescription}</p>
-  <div class="mt-4 flex flex-wrap justify-center">
-    {#each project.competences as skill}
-      <img src="{getSkillLogo(skill)}" alt="{skill}" class="h-8 w-8 m-2" title="{skill}">
-    {/each}
-  </div>
-</Modal>
+<div class="zikette">
+  <Modal title="{project.alt}" {color} bind:open={$isOpen} autoclose outsideclose>
+    <p class="text-base leading-relaxed text-slate-700 dark:text-gray-200">{project.longdescription}</p>
+    <div class="mt-4 flex flex-wrap justify-center">
+      {#each project.competences as skill}
+        <img src="{getSkillLogo(skill)}" alt="{skill}" class="h-8 w-8 m-2" title="{skill}">
+      {/each}
+    </div>
+    <h3>Si la croix ne marche pas, cliquez en dehors</h3>
+  </Modal>
+</div>
