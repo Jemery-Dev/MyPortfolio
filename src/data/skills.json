@@ -102,7 +102,7 @@
     "category" : ["Back-End","Framework"],
     "src" : "/imageProjet/skills/icons8-symfony-96.png",
     "href" : "https://symfony.com",
-    "text" : "Symfony fut un framework complexe à appréhender au début. Initialement, je le voyais comme un simple framework web, mais il s'est révélé être totalement différent des autres, avec une forte orientation back-end. Cependant, la facilité avec laquelle on peut créer des objets et des relations entre eux est stupéfiante, surtout compte tenu du temps que j'avais passé sans utiliser Symfony auparavant."
+    "text" : "Symfony m'a semblé complexe au début, mais j'ai rapidement découvert ses puissantes capacités back-end, notamment pour créer des objets et gérer les relations efficacement. Mon stage fullstack chez Only Rocks en PHP Symfony a grandement amélioré ma maîtrise du framework."
   },
   {
     "alt" : "Vue",

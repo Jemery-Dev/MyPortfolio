@@ -25,8 +25,8 @@
   },
   {
     "title": "Stage développement Full Stack à Onyl Rocks",
-    "paragraph": "En cours...",
-    "date": "15/04/2024 - En cours...",
+    "paragraph": "J'ai effectué un stage de 10 semaines en fullstack chez Only Rocks, où j'ai eu l'opportunité de travailler avec PHP Symfony. Cette expérience m'a non seulement permis de maîtriser davantage le framework Symfony, mais aussi d'apprendre de nombreux concepts essentiels, tels que la qualité du code, les pull requests, et l'esprit de collaboration en entreprise. Je suis fier d'avoir accompli ma mission et de ce que j'ai pu réaliser durant ce stage.",
+    "date": "15/04/2024 - 30/06/2024",
     "logo": "<svg class=\"w-6 h-6 text-gray-800 dark:text-white\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\">\n  <path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14\"/>\n</svg>\n"
   }
 ]
